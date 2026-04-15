@@ -28,7 +28,7 @@ if not TMDB_API_KEY:
 # =========================
 # FASTAPI APP
 # =========================
-app = FastAPI(title="Movie Recommender API", version="3.0")
+app = FastAPI(title="Movie Recommender API", version="1.0")
 
 app.add_middleware(
     CORSMiddleware,
